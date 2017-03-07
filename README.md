@@ -34,7 +34,7 @@ $ docker run -d -p 7337:7337 machinedata/edc-cratedb
 
 ## Legal
 
-EDC-CrateDB is a project of [Zoomdata, Inc.](https://www.zoomdata.com) under the [Apache 2.0 license](https://github.com/Zoomdata/edc-cratedb/blob/master/LICENSE) and was created by
+EDC-CrateDB is a project of [Zoomdata, Inc.](https://www.zoomdata.com) under the [Apache 2.0 license](https://github.com/Zoomdata/edc-cratedb/blob/master/LICENSE) and was created by Quan Luu, Justin Boyd and William Bowen.
 
 docker-edc-cratedb is licensed under the [Apache 2.0 license](https://github.com/machine-data/docker-edc-cratedb/blob/master/LICENSE).
 Copyright 2017 [Crate.io, Inc.](https://crate.io).
