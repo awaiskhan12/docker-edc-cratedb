@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  edc-cratedb:
+    image: machinedata/edc-cratedb
+    ports:
+      - "7337:7337"
+    #volumes:
+    #  - /tmp:/tmp
