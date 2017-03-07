@@ -22,7 +22,7 @@ RUN set -xe \
     && mvn clean install \
     \
     && cp target/*.jar /edc-cratedb \
-    && ln -s /edc-cratedb/connector-server-cratedb-exec-${EDC_CRATEDB_VERSION}.jar /edc-cratedb/connector-server-cratedb-exec.jar \
+    && ln -s /edc-cratedb/connector-server-cratedb-${EDC_CRATEDB_VERSION}-exec.jar /edc-cratedb/connector-server-cratedb-exec.jar \
     && rm -rf /edc-cratedb/source ~/.m2 \
     \
     && apk del .build-deps
