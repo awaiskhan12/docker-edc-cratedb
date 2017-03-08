@@ -28,6 +28,12 @@ Simply start EDC-CrateDB and expose it via `http://{HOSTNAME}:7337`:
 $ docker run -d -p 7337:7337 machinedata/edc-cratedb
 ```
 
+## Configuring Zoomdata
+
+Log in as supervisor and define the CrateDB Connector Server. It is using the HTTP protocol on port 7337 and connects to the /connector REST endpoint.
+
+  .. image:: docs/connector.png
+
 ## Ports
 
 - `7337`: The default port where EDC-CrateDB is listening. When specifying the connection string from Zoomdata make sure to use the `/connector` endpoint.
