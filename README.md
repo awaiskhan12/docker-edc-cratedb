@@ -32,7 +32,7 @@ $ docker run -d -p 7337:7337 machinedata/edc-cratedb
 
 Log in as supervisor and define the CrateDB Connector Server. It is using the HTTP protocol on port 7337 and connects to the /connector REST endpoint.
 
-  .. image:: docs/connector.png
+  .. image:: https://raw.githubusercontent.com/machine-data/docker-edc-cratedb/master/docs/connector.png
 
 ## Ports
 
