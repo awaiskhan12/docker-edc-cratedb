@@ -13,7 +13,7 @@ RUN set -xe \
         maven \
         openjdk8 \
     \
-    && curl -O -fSL "https://github.com/crate/edc-cratedb/archive/v${EDC_CRATEDB_VERSION}.tar.gz" \
+    && curl -O -fSL "https://github.com/Zoomdata/edc-cratedb/archive/v${EDC_CRATEDB_VERSION}.tar.gz" \
     && mkdir -p /edc-cratedb/source \
     && tar -xf v${EDC_CRATEDB_VERSION}.tar.gz -C /edc-cratedb/source --strip-components=1 --no-same-owner \
     && rm v${EDC_CRATEDB_VERSION}.tar.gz \
